@@ -21,5 +21,5 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[green]}*"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[green]}!"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
-local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
+return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
 RPROMPT='${return_status}'
